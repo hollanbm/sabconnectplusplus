@@ -1,4 +1,4 @@
-﻿var store = new StoreClass('settings', {}, undefined, storeReady_popup);
+var store = new StoreClass('settings', {}, undefined, storeReady_popup);
 
 function storeReady_popup() {
 	var nowtime = new Date();
@@ -504,7 +504,7 @@ function populateAndSetCategoryList()
     var params = {
         action: 'get_categories'
     }
-    chrome.extension.sendMessage(params, function(data) {
+    chrome.runtime.sendMessage(params, function(data) {
         for (i = 0; i < data.categories.length; i++) {
             var cat = '<option value="' + data.categories[i] + '">' + data.categories[i] + '</option>';
             $('#userCategory').append(cat);

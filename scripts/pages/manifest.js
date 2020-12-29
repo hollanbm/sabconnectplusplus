@@ -1,5 +1,5 @@
 this.manifest = {
-	'name': 'SABConnect++ Settings',
+	'name': 'SABConnect++ for Firefox Settings',
 	'icon': 'images/sab2_48.png',
 	'alignment': [
 		[
@@ -196,14 +196,6 @@ this.manifest = {
 		{
 			'tab': 'Providers',
 			'group': '1-Click NZB downloading',
-			'name': 'provider_newznab',
-			'type': 'text',
-			'sync': true,
-			'label': 'Newznab Providers (coma-separated list of hostnames):'
-		},
-		{
-			'tab': 'Providers',
-			'group': '1-Click NZB downloading',
 			'name': 'provider_usenet4ever',
 			'type': 'checkbox',
 			'sync': true,
@@ -314,13 +306,6 @@ this.manifest = {
 			'name': 'config_enable_automatic_authentication',
 			'type': 'checkbox',
 			'label': 'Enable Automatic Authentication (insecure)'
-		},
-		{
-			'tab': 'Configuration',
-			'group': 'General',
-			'name': 'config_enable_automatic_detection',
-			'type': 'checkbox',
-			'label': 'Enable Automatic Newznab Detection (can slow down some sites)'
 		},
 		{
 			'tab': 'Configuration',

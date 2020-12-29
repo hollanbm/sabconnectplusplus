@@ -1,3 +1,8 @@
+Version 0.6.31-firefox
+----------------------
+Fork SABconnect++ and port it to Firefox. Ideally this would be part of the same project, but the current maintainer did not respond to an open issue. This may change at some point in the future.
+Newznab support was removed due to several issues getting it to work with Firefox and difficulty testing.
+
 Version 0.6.31
 --------------
 Fix nzbindex (thanks gissehel)

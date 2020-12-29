@@ -13,8 +13,8 @@ this.is_sabconnect_settings = true;
 
 var profileMissingErrorMsg =
 	'A connection profile exists in the popup but does not exist in localStorage for some reason. '+
-	'Please file a bug at the SABconnect++ Google Code page if you see this message and explain '+
-	'what you did to reproduce this error.'
+	'Please file a bug on the SABconnect++ GitHub (either the fork or the original) page if you '+
+	'see this message and explain what you did to reproduce this error.'
 
 var ProfilePopup = new Class({
 	'profiles': {},

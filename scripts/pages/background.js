@@ -17,7 +17,6 @@ var defaultSettings = {
 	provider_yubse: true,
 	provider_omgwtfnzbs: true,
 	provider_nzbrss: true,
-	provider_newznab: 'your_newznab.com, some_other_newznab.com',
 	provider_usenet4ever: true,
 	use_name_binsearch: true,
 	use_name_nzbindex: true,
@@ -159,8 +158,7 @@ function displayNotificationCallback( data )
                             type:    'basic',
                             iconUrl: 'images/sab2_48.png',
                             title:   'Download Failed',
-                            message: entry.name + ': ' + fail_msg,
-                            buttons: [{ title: entry.storage  }]
+                            message: entry.name + ': ' + fail_msg
                         },
                         function(notId) { console.log("notification for "+notId); }
 					);
@@ -171,8 +169,7 @@ function displayNotificationCallback( data )
                             type:    'basic',
                             iconUrl: 'images/sab2_48.png',
                             title:   'Download Complete',
-                            message: entry.name,
-                            buttons: [{ title: entry.storage  }]
+                            message: entry.name
                         },
                         function(notId) { console.log("notification for "+notId); }
 					);
@@ -585,7 +582,7 @@ function initializeProfile()
 
 function initializeBackgroundPage()
 {
-	chrome.extension.onMessage.addListener( OnRequest );
+	chrome.runtime.onMessage.addListener( OnRequest );
 
     // Migration from localStorage to chrome.storage.sync
 	var settingsSynced = store.get( 'settings_synced' );

@@ -1,3 +1,4 @@
+# This is a fork of SABconnect++ for Firefox. It's based on [https://github.com/gboudreau/sabconnectplusplus](https://github.com/gboudreau/sabconnectplusplus) with minimal changes. Nothing was changed that did not need to be changed.
 
 **Important note:**
 Nobody is maintaining this codebase right now. Anyone who needs a fix will need to submit a Pull Request with the required changes.

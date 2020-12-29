@@ -73,7 +73,7 @@ function addToSABnzbd(addLink, nzburl, mode, nice_name, category) {
 	console.log("Sending to SABnzbd:");
 	console.log(request);
 	
-	chrome.extension.sendMessage(
+	chrome.runtime.sendMessage(
 		request,
 		function(response) { onResponseAdd( response, addLink ) }
 		);
@@ -86,7 +86,7 @@ function GetSetting( setting, callback )
 		setting: setting
 	}
 	
-	chrome.extension.sendMessage( request, function( response ) {
+	chrome.runtime.sendMessage( request, function( response ) {
 		var value = response.value;
 		
 		if( typeof value == 'undefined' || value == null ) {
@@ -114,7 +114,7 @@ function Initialize( provider, refresh_function, callback )
 		provider: provider
 	}
 		
-	chrome.extension.sendMessage( request, function( response ) {
+	chrome.runtime.sendMessage( request, function( response ) {
 		if( response.enabled ) {
 			callback();
 		}
@@ -136,4 +136,4 @@ function OnRequest( request, sender, onResponse )
 	}
 };
 
-chrome.extension.onMessage.addListener( OnRequest );
+chrome.runtime.onMessage.addListener( OnRequest );
