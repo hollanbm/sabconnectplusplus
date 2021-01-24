@@ -31,11 +31,9 @@
 		"default_title": "SABconnect++",
 		"default_popup": "popup.html"
 	},
-	"icons":
-	{
-		"16": "images/sab2_16.png",
-		"48": "images/sab2_48.png",
-		"128": "images/sab2_128.png"
+	"icons": {
+		"48": "images/addon_icon.svg",
+		"96": "images/addon_icon.svg"
 	},
 	"web_accessible_resources": [
 		"images/sab2_16_fetching.png",
