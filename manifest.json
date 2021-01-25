@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "SABconnect++ for Firefox",
-	"version": "0.6.31firefox",
+	"version": "0.6.31firefox2",
 	"description": "SABnzbd extension for Mozilla Firefox.",
 	"browser_specific_settings": {
 		"gecko": {
