@@ -156,7 +156,7 @@ function displayNotificationCallback( data )
                         entry.name,
                         {
                             type:    'basic',
-                            iconUrl: 'images/sab2_48.png',
+                            iconUrl: 'images/addon_icon.svg',
                             title:   'Download Failed',
                             message: entry.name + ': ' + fail_msg
                         },
@@ -167,7 +167,7 @@ function displayNotificationCallback( data )
                         entry.name,
                         {
                             type:    'basic',
-                            iconUrl: 'images/sab2_48.png',
+                            iconUrl: 'images/addon_icon.svg',
                             title:   'Download Complete',
                             message: entry.name
                         },
