@@ -5,7 +5,7 @@ function onResponseAdd( response, addLink )
 	switch( response.ret ) {
 	case 'error' :
 		alert("Could not contact SABnzbd \n Check it is running and your settings are correct");
-		var img = chrome.extension.getURL('images/sab2_16_red.png');
+		var img = chrome.extension.getURL('images/content_icon_error.png');
 		if ($(addLink).find('img').length > 0) {
 			$(addLink).find('img').attr("src", img);
 		} else {
@@ -19,7 +19,7 @@ function onResponseAdd( response, addLink )
 		// If there was an error of some type, report it to the user and abort!
 		if (response.data.error) {
 			alert(response.data.error);
-			var img = chrome.extension.getURL('images/sab2_16_red.png');
+			var img = chrome.extension.getURL('images/content_icon_error.png');
 			if ($(addLink).find('img').length > 0) {
 				$(addLink).find('img').attr("src", img);
 			} else {
@@ -30,7 +30,7 @@ function onResponseAdd( response, addLink )
 			}
 			return;
 		}
-		var img = chrome.extension.getURL('images/sab2_16_green.png');
+		var img = chrome.extension.getURL('images/content_icon_success.png');
 		if ($(addLink).find('img').length > 0) {
 			$(addLink).find('img').attr("src", img);
 		} else if (addLink.nodeName && addLink.nodeName.toUpperCase() == 'INPUT' && addLink.value == 'Sent to SABnzbd!') {

@@ -36,10 +36,10 @@
 		"96": "images/addon_icon.svg"
 	},
 	"web_accessible_resources": [
-		"images/sab2_16_fetching.png",
-		"images/sab2_16.png",
-		"images/sab2_16_red.png",
-		"images/sab2_16_green.png",
+		"images/content_icon.png",
+		"images/content_icon_error.png",
+		"images/content_icon_fetching.png",
+		"images/content_icon_success.png",
 		"css/common.css"
 	],
 	"permissions":
