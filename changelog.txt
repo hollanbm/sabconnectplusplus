@@ -1,3 +1,15 @@
+Version 0.6.34
+--------------
+Fixed Generic newznab (drunkenslug) category detection (thanks jdart)
+
+Version 0.6.33
+--------------
+Enable context menu on https pages (thanks sakana280)
+
+Version 0.6.32
+--------------
+Fix style for omgwtfnzbs.me #190 (thanks omgstaff)
+
 Version 0.6.31-firefox
 ----------------------
 Fork SABconnect++ and port it to Firefox. Ideally this would be part of the same project, but the current maintainer did not respond to an open issue. This may change at some point in the future.
@@ -368,3 +380,4 @@ Bugfix: Connection to SABnzbd now works even if the user chose to "Disable API-k
 Bugfix: Popup always showed 'Resume queue' even if the queue wasn't paused.
 Bugfix: Status (at the top of popup) would stay red (paused color) if you paused then resumed.
 Bugfix: NZBMatrix.com download URLs had the hostname twice in them! http://code.google.com/p/sabconnect/issues/detail?id=9
+>>>>>>> 9d3644c2f94362e65e6762fbbcb34ab6cd1f6744
