@@ -1,3 +1,7 @@
+Version 0.6.34-firefox
+--------------
+Contains the preliminary fix for the dognzb subdomain change, that will be release as 0.6.35. Continues to not have newznab.
+
 Version 0.6.34
 --------------
 Fixed Generic newznab (drunkenslug) category detection (thanks jdart)
