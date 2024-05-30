@@ -5,7 +5,7 @@
 	"description": "SABnzbd extension for Mozilla Firefox.",
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "sabconnectplusplus-firefox@bhack.net",
+			"id": "sabconnectplusplus-firefox@hollanbm",
 			"strict_min_version": "59.0"
 		}
 	},
