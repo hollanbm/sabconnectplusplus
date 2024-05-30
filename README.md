@@ -1,3 +1,7 @@
+# This is a fork of [https://github.com/bertvandepoel/sabconnectplusplus](https://github.com/bertvandepoel/sabconnectplusplus) w/ the OMG TLD domain change. I do not have any other plans as far as maintenance goes
+
+---
+
 # This is a fork of SABconnect++ for Firefox. It's based on [https://github.com/gboudreau/sabconnectplusplus](https://github.com/gboudreau/sabconnectplusplus) with minimal changes. Nothing was changed that did not need to be changed.
 
 **Important note:**
