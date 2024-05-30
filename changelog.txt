@@ -1,6 +1,7 @@
-Version 0.6.35-firefox
+Version 1.0.0
 --------------
 omgwtfnzbs TLD change to .org
+AMO requires semver, no leading zeros, no alpha characters
 
 Version 0.6.34-firefox
 --------------
